@@ -1,0 +1,79 @@
+@charset "utf-8";
+body {
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+nav{
+    height: 35px;
+    background-color: #BDE1D9;
+    background-position: center;
+    border-radius: 10px;
+}
+ul li{
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding: 6px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	font-family:"fantasy", "cursive", Script, Terminal, Arkhip, "Lucida Sans Unicode", "Marcelle Script", "Matura MT Script Capitals", "Kunstler Script"
+}
+header {
+    height: 50px;
+    background-color:#BDE1D9;
+    background-position: center;
+    border-radius: 10px;
+}
+h1{
+	font-family: "fantasy", "cursive", Script, Terminal, Arkhip, "Lucida Sans Unicode", "Marcelle Script", "Matura MT Script Capitals", "Kunstler Script";
+    text-align: center;
+    color: #0D0C0C;
+	font-size: 45px;
+}
+section{
+    margin-top: 50px;
+    width: 512px;
+    background-color: #C5FBEC;
+    height: 660px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+h2{
+    font-family: marmelad;
+    font-weight: 20;
+    font-size: 25px;
+    text-align: center;
+    border-bottom-style: double;
+    border-bottom-width: medium;
+    border-radius: 10px;
+}
+section{
+    float:left;
+    margin-left: 40px;
+	
+}
+img{
+    margin-left: 6px;
+    border-radius: 5px;	
+}
+h3{
+    font-family: marmelad;
+    font-weight: 20;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: marmelad;
+    font-style: normal;
+    font-weight: 400;
+}
+ol, li{
+    text-align: left;
+    font-family: marmelad;
+    font-style: normal;
+    font-weight: 400;
+}
